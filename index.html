@@ -3,13 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
   <link href="./output.css" rel="stylesheet">
 </head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>s
 
-  <p class="text-red-600">hello</p>
+<!-- npx tailwindcss -i ./input.css -o ./output.css --watch -->
+<body class="max-w-[1440px] mx-auto bg-[#264653]">
+
+  <header class="max-w-[1140px] mx-auto text-white">
+    <nav class="mt-5 flex justify-end gap-16  ">
+      <ul class="flex justify-end gap-8 items-center hidden md:flex ">
+        <li><a href="">Home</a></li>
+        <li><a href="">Shop</a></li>
+        <li><a href="">News</a></li>
+        <li><a href="">Contact</a></li>
+      
+      </ul>
+      <div>
+        <button class="font-semibold hidden md:flex  bg-orange-500 text-white px-3 py-2 rounded-sm ">Login</button>
+        <i class="ri-menu-2-line md:hidden text-8 "></i>
+      </div>
+    </nav>
+
+
+    <section>
+
+      <div class="flex flex-col border-4 items-center mt-10 md:flex-row md:justify-between" >
+        <div class="space-y-4">
+          <p>Computer-controlled digital transistorized with electronic advance</p>
+          <h1 class="text-5xl font-[800]">Honda CBR 300R</h1>
+          <P>Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. Velit officia consequat duis enim <br> velit mollit. Exercitation veniam consequat sunt nostrud amet.</P>
+          <button>Purchase</button>
+        </div>
+        <div class="h-[500px] max-w-[500px]">
+          <img class="h-full w-full" src="/images/slider/bike2.png" alt="">
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+
+  </header>
+
+
+  <main></main>
+  <footer></footer>
+
 </body>
 </html>
